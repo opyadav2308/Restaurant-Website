@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+}
+
+
+#logo img {
+    height: 56px;
+    margin: 34px 45px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+nav ul {
+    display: flex;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-family: 'Bree Serif', serif;
+    align-items: center;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+nav ul li {
+    list-style: none;
+    /* Remove bullets from the list items*/
+    font-size: 27px;
+    display: block;
+    position: relative;
+    float: left;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background: white;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 578px;
+    padding: 3px 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    background: url(img.jpg) no-repeat center center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 578px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* utility Classes */
+.h.primary {
+    font-size: 50px;
+    padding: 12px;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: #e95119;
+    color: white;
+    margin: 17px;
+    font-size: 24px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#best {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* services section */
+.h-secondary {
+    font-size: 30px;
+    padding: 12px;
+}
+
+.services {
+    margin-top: 20px;
+}
+
+#services {
+    margin: 30px;
+    display: flex;
+    margin-top: 40px;
+}
+
+#services .box {
+    border: 2px solid brown;
+    padding: 30px;
+    margin: 3px 6px;
+    border-radius: 15px;
+}
+
+#services .box img {
+    height: 180px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+
+}
+
+#service .box p {
+    font-size: 35px;
+}
+
+/* food Delivery Partners */
+#delivery-section {
+    /* background-color: #d5ecf0; */
+    height: fit-content;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#delivery {
+    display: flex;
+    justify-content: center;
+}
+
+.delivery-item {
+    padding: 50px;
+}
+
+.delivery-item img {
+    height: 100px;
+}
+
+.food {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* contact section */
+
+.cont {
+    font-size: 45px;
+    text-align: center;
+}
+
+#contact {
+    position: relative;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url() no-repeat center center cover;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.contact-box form {
+    width: 40%;
+}
+
+.contact-box label {
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+}
+
+/* .contact-box .btn{
+    margin-left: 220px;
+} */
+
+footer {
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
