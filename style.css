@@ -27,6 +27,7 @@ nav ul {
     margin-bottom: 6px;
     font-family: 'Bree Serif', serif;
     align-items: center;
+    margin-left: 400px;
 }
 
 #navbar::before {
